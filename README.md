@@ -8,13 +8,13 @@
 My thesis for following the course of action I did was to utilize the power of pandas library in python to perform the requested data manipulation task in an efficient and simple way. I followed this course of action because it is an efficient way to perform the necessary transformations on the dataset. Joining the two dataframes on the "counter_party" column ensures that the "tier" column is included in the resulting dataframe. Grouping the dataframe by the "legal_entity", "counterparty", and "tier" columns makes it possible to aggregate the data by those columns. Finally, adding the total records provides a summarized view of the data that makes it easier to understand and analyze. Below is a step by step outline of how I approached this task. 
 
 
-*Import the pandas library to use dataframes
-*Create two dataframes, dataset1 and dataset2
-*Join the two dataframes on the "counter_party" column
-*Group the resulting dataframe by the "legal_entity", "counterparty", and "tier" columns
-*Use the "max" function on the "rating" column to find the maximum rating by counterparty
-*Use the "sum" function on the "value" column to find the sum of values where status is either "ARAP" or "ACCR".
-*Reset the index of the dataframe and add total records for each of the legal entity, counterparty, and tier by adding new rows to the dataframe and calculating the values for "max(rating by counterparty)", "sum(value where status=ARAP)", and "sum(value where status=ACCR)".
+* Import the pandas library to use dataframes
+* Create two dataframes, dataset1 and dataset2
+* Join the two dataframes on the "counter_party" column
+* Group the resulting dataframe by the "legal_entity", "counterparty", and "tier" columns
+* Use the "max" function on the "rating" column to find the maximum rating by counterparty
+* Use the "sum" function on the "value" column to find the sum of values where status is either "ARAP" or "ACCR".
+* Reset the index of the dataframe and add total records for each of the legal entity, counterparty, and tier by adding new rows to the dataframe and calculating the values for "max(rating by counterparty)", "sum(value where status=ARAP)", and "sum(value where status=ACCR)".
 
 Finally, reset the index of the dataframe and add total records for each of the legal entity, counterparty, and tier by adding new rows to the dataframe and calculating the values for "max(rating by counterparty)", "sum(value where status=ARAP)", and "sum(value where status=ACCR)".
 
